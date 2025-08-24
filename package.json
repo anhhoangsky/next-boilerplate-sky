@@ -1,0 +1,52 @@
+{
+  "name": "next-fe-boilerplate",
+  "private": true,
+  "packageManager": "bun@latest",
+  "scripts": {
+    "dev": "NEXT_TELEMETRY_DISABLED=1 next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome lint --reporter=pretty .",
+    "format": "biome format --write .",
+    "test": "jest",
+    "test:e2e": "playwright test",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "prepare": "husky install",
+    "analyze": "ANALYZE=true next build"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-auth": "latest",
+    "@tanstack/react-query": "latest",
+    "zustand": "latest",
+    "lucide-react": "latest",
+    "clsx": "latest",
+    "tailwind-variants": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@next/bundle-analyzer": "latest",
+    "@svgr/webpack": "latest",
+    "@next/mdx": "latest",
+    "biome": "latest",
+    "husky": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "@types/jest": "latest",
+    "playwright": "latest",
+    "typescript": "latest",
+    "storybook": "latest",
+    "@storybook/nextjs": "latest",
+    "@storybook/addon-essentials": "latest"
+  }
+}
