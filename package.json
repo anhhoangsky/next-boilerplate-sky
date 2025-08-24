@@ -41,6 +41,7 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "jest": "latest",
+    "jest-environment-jsdom": "latest",
     "ts-jest": "latest",
     "@types/jest": "latest",
     "playwright": "latest",
