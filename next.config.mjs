@@ -5,8 +5,8 @@ const withMDX = nextMDX({ extension: /\.mdx?$/ });
 
 /** @type {import('next').NextConfig} */
 const config = {
+  turbopack: { rules: {} },
   experimental: {
-    turbo: { rules: {} },
     mdxRs: true,
   },
   pageExtensions: ["ts", "tsx", "mdx"],
