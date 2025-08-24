@@ -44,7 +44,7 @@
     "jest-environment-jsdom": "latest",
     "ts-jest": "latest",
     "@types/jest": "latest",
-    "playwright": "latest",
+    "@playwright/test": "latest",
     "typescript": "latest",
     "storybook": "latest",
     "@storybook/nextjs": "latest",
