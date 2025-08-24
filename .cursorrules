@@ -1,0 +1,8 @@
+# Cursor Rules
+- Use Bun for scripts (`bun install`, `bun run dev`).
+- Format and lint code with Biome (`bun run format`, `bun run lint`).
+- Place shadcn/ui components under `components/ui` and style with Tailwind CSS.
+- Prefer TypeScript and functional React components with hooks.
+- Use `@tanstack/react-query` for async state and `zustand` for client-side stores.
+- Write unit tests with Jest (jsdom) and E2E tests with Playwright.
+- Follow Conventional Commits and run tests before pushing.
